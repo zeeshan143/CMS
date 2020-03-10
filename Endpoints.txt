@@ -1,0 +1,102 @@
+1. Home:
+	http://localhost:8080
+	
+2. Create Teacher: POST
+	http://localhost:8080/teachers
+
+3. Insert TeacherDetail: POST	
+	http://localhost:8080/teachers/id/teacherDetails
+	
+4. Update Teacher: PUT
+	http://localhost:8080/teachers/id
+	
+5. Update TeacherDetail: PUT	
+	http://localhost:8080/teacherDetails/id
+
+6. Get a list of Teachers: GET
+	http://localhost:8080/teachers
+
+7. Get a single Teacher: GET
+	http://localhost:8080/teachers/id
+
+8. Delete Teacher: DELETE
+	http://localhost:8080/teachers/id
+	
+	
+9. Delete TeacherDetail: DELETE
+	http://localhost:8080/teacherDetails/id
+	
+10. Create Student: POST
+	http://localhost:8080/students
+
+11. Update Student: PUT
+	http://localhost:8080/students/id
+	
+12. Get a list of Students: GET
+	http://localhost:8080/students
+	
+13. Get a single Student: GET
+	http://localhost:8080/students/id
+
+14. Delete a Student: DELETE	
+	http://localhost:8080/students/id
+	
+15. Create Degree: POST
+	http://localhost:8080/degrees
+	
+16. Update Degree: PUT
+	http://localhost:8080/degrees/id
+	
+17. Get a list of Degrees: GET
+	http://localhost:8080/degrees
+	
+18. Get a single Degree: GET
+	http://localhost:8080/degrees/id
+
+19. Delete a Degree: DELETE	
+	http://localhost:8080/degrees/id
+		
+20. Create Course: POST
+	http://localhost:8080/courses
+	
+21. Update Course: PUT
+	http://localhost:8080/courses/id
+	
+22. Get a list of Courses: GET
+	http://localhost:8080/courses
+	
+23. Get a single Course: GET
+	http://localhost:8080/courses/id
+
+24. Delete a Course: DELETE	
+	http://localhost:8080/courses/id
+	
+25. Insert Course into Degree: POST
+	http://localhost:8080/degrees/id/courses
+	
+26. Insert Review about Course	
+	http://localhost:8080/courses/id/reviews
+
+27. Update Review: PUT
+	http://localhost:8080/reviews/id
+	
+28. Get a list of Reviews: GET
+	http://localhost:8080/reviews
+	
+29. Get a single Review: GET
+	http://localhost:8080/reviews/id
+
+30. Delete a Course: DELETE	
+	http://localhost:8080/reviews/id
+
+31. Relate new Course to a Teacher: POST
+	http://localhost:8080/teachers/id/courses
+	
+32. Relate new Student to a Teacher: POST
+	http://localhost:8080/teachers/id/students
+	
+33. Relate new Student to a Course: POST
+	http://localhost:8080/courses/id/students
+	
+-------------------------------------------------------------------------
+

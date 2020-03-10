@@ -1,0 +1,13 @@
+DB Generation: 
+--------------
+
+Step 1: 
+	Create a DB in MySQL Workbench as follows: 
+	DROP DATABASE IF EXISTS CMS;
+	CREATE DATABASE CMS;
+	USE CMS;
+Step 2: 
+	Run the application
+Step 3: 
+	Go to MySQL Workbench > Refresh All (Schemas), expand the DB (CMS, in this case)
+	Note: To create the SQL code, we Right-click to table > Send To SQL Editor > Create Statement. 
